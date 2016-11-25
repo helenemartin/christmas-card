@@ -1,9 +1,9 @@
 body {
   background: #e3e0e0;
- /* background: url() no-repeat center center;*/
+  background-image: url("./images/xmastree.png") no-repeat center center;
   background-size : cover;
   height: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .snow-container {
