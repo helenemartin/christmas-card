@@ -5,7 +5,7 @@ function $snow() {
     }).html(' &#x2022;'),
     animationHeight = $('.snow-container').height(),
     animationWidth = $(document).width(),
-    snowCount = 500;
+    snowCount = 10;
 
   setInterval(function() {
 
