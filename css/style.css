@@ -1,3 +1,5 @@
+
+
 body {
   background: #e3e0e0;
   background-image: url("./images/xmastree.png") no-repeat center center;
@@ -5,6 +7,36 @@ body {
   height: 100%;
   height: 100%;
 }
+
+#box {
+
+    position: absolute;
+    top: 46%;
+    left: 46%;
+    width: 49%;
+    height: 42%;
+    border-radius: 5px;
+    padding: 20px 5px 0 50px;
+    z-index: -1;
+     background-image: -moz-linear-gradient(top, #ed484e, #f81524 ); /* FF3.6 */
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f6f2ec),color-stop(1, #e2dbce)); /* Saf4+, Chrome */
+                  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f2ec', EndColorStr='#e2dbce');  IE6,IE7 
+              -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f2ec', EndColorStr='#e2dbce')"; /* IE8 */
+    
+           -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), 0 85px 180px 0 #fff, 0 12px 8px -5px rgba(0, 0, 0, 0.85); /* FF3.5+ */
+        -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), 0 85px 810px -68px #fff, 0 12px 8px -5px rgba(0, 0, 0, 0.65); /* Saf3.0+, Chrome */
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), 0 85px 180px 0 #fff, 0 12px 8px -5px rgba(0, 0, 0, 0.85); /* Opera 10.5, IE 9.0 */
+}
+
+#box p {
+  font-size: 11px;
+  font-size: 1.6vw;
+  line-height: 0.1rem;
+  color: white;
+  font-family: "Gill Sans";
+  text-align: justify;
+}
+
 
 .snow-container {
   height: 100%;
@@ -16,24 +48,53 @@ body {
 .tree {
   position: absolute;
  /* display: inline-block;*/
- /* top: 0;*/
-  margin-top: 3%;
-  width: 60%;
+ top: 3%;
+  width: 44%;
  
 }
 
 .boules {
  position:fixed;
   top: 0;
-  width: 20%;
-  left: 80%;
+  width: 18%;
+  left: 82%;
 /*  z-index: -1;*/
 }
 
 .logo {
   position: relative;
   width: 7%;
-  margin-left: 27%;
-  margin-top: 2%;
+  margin-left: 19%;
   z-index: 1;
+}
+
+.anounce {
+  display: inline-block;
+  padding: 7%;
+  text-align: center;
+  line-height: 0.2rem;
+  width: 75%;
+}
+
+.anounce h3 {
+  font-size:10px;
+  font-size:1.4vw;
+  color: #a29e9e;
+  font-family: "Garamond";
+
+}
+
+.anounce h1{
+  font-size: 30px;
+  font-size: 3.4vw;
+  color: #295237;
+  font-style: italic;
+  text-align: right;
+  font-family: "Mountains of Christmas";
+  z-index: 1;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
 }
