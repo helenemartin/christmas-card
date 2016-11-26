@@ -14,12 +14,16 @@ body {
     top: 46%;
     left: 46%;
     width: 49%;
-    height: 42%;
+    height: 40%;
     border-radius: 5px;
-    padding: 20px 5px 0 50px;
+    padding: 100px 5px 0 95px;
     z-index: -1;
-     background-image: -moz-linear-gradient(top, #ed484e, #f81524 ); /* FF3.6 */
-        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f6f2ec),color-stop(1, #e2dbce)); /* Saf4+, Chrome */
+ 
+     
+      background-image: linear-gradient(to bottom, #ed484e 0%, #f81524 100%), linear-gradient(to bottom, #ff8b01 0%, #f81524 100%);
+       background-image: linear-gradient(top, #ed484e 0%, #f81524 100%), linear-gradient(top, #ed484e 0%, #f81524 100%);
+
+
                   filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f2ec', EndColorStr='#e2dbce');  IE6,IE7 
               -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f2ec', EndColorStr='#e2dbce')"; /* IE8 */
     
@@ -36,6 +40,25 @@ body {
   font-family: "Gill Sans";
   text-align: justify;
 }
+
+/*#box img {
+  width: 45%;
+  margin-top: -200px;
+  transform: rotate(-35deg);
+  transform-origin: center bottom;
+}*/
+
+#sledge {
+  position:relative;
+  width:100%;
+  margin-top: -600px;
+  margin-left: 950px;
+  text-align:;
+  transform: rotate(-20deg);
+}
+
+
+
 
 
 .snow-container {
@@ -66,6 +89,13 @@ body {
   width: 7%;
   margin-left: 19%;
   z-index: 1;
+}
+
+.sledge {
+  margin: 100px;
+  width: 100%;
+  float: right;
+
 }
 
 .anounce {
