@@ -13,3 +13,27 @@ body {
   overflow: hidden;
 }
 
+.tree {
+  position: absolute;
+ /* display: inline-block;*/
+ /* top: 0;*/
+  margin-top: 3%;
+  width: 60%;
+ 
+}
+
+.boules {
+ position:fixed;
+  top: 0;
+  width: 20%;
+  left: 80%;
+/*  z-index: -1;*/
+}
+
+.logo {
+  position: relative;
+  width: 7%;
+  margin-left: 27%;
+  margin-top: 2%;
+  z-index: 1;
+}
