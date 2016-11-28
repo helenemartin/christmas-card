@@ -1,7 +1,7 @@
 
 
 body {
-  background: #e3e0e0;
+  background: #ffffff;
   background-image: url("./images/xmastree.png") no-repeat center center;
   background-size : cover;
   height: 100%;
@@ -16,7 +16,7 @@ body {
     width: 49%;
     height: 42%;
     border-radius: 5px;
-    padding: 20px 5px 20px 45px;
+    padding: 30px 15px 20px 55px;
     z-index: -1;
  
      
@@ -43,6 +43,7 @@ body {
 
 #box img {
   position: relative;
+  padding-right: 15px;
   width: 35%;
   left: 65%;
   right: 55%;
