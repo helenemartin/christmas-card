@@ -14,7 +14,7 @@ body {
     top: 45%;
     left: 46%;
     width: 49%;
-    height: 40%;
+    height: 42%;
     border-radius: 5px;
     padding: 20px 5px 20px 45px;
     z-index: -1;
@@ -41,24 +41,16 @@ body {
   text-align: justify;
 }
 
-/*#box img {
-  width: 45%;
-  margin-top: -200px;
+#box img {
+  position: relative;
+  width: 35%;
+  left: 65%;
+  right: 55%;
+  margin-top: -480px;
+  margin-bottom: 85px;
   transform: rotate(-35deg);
   transform-origin: center bottom;
-}*/
-
-#sledge {
-  position:relative;
-  width:100%;
-  margin-top: -600px;
-  margin-left: 950px;
-  text-align:;
-  transform: rotate(-20deg);
 }
-
-
-
 
 
 .snow-container {
