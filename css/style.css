@@ -121,3 +121,24 @@ br {
    display: block;
    margin: 10px 0;
 }
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1024px) {
+  .reveal .speaker-notes {
+    font-size: 14px; 
+  } 
+}
+
+@media screen and (max-width: 600px) {
+  #box {
+    left: 45px;
+  }
+  #box img {
+    width: 70%;
+    top: 110px;
+    left: 35%; 
+  } 
+}
